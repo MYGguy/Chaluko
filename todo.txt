@@ -1,0 +1,8 @@
+list of items to choose from
+each item is in its catagory
+
+accordian opens up
+
+press checkbox, then commit
+
+percentage of taken items
