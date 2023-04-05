@@ -1,7 +1,11 @@
-.panel {
+/* .panel {
+  display: none;
+} */
+
+.hidden {
   display: none;
 }
 
-.active {
+/* .active {
   display: block;
-}
+} */
