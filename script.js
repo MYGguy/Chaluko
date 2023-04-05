@@ -1,16 +1,19 @@
 var acc = document.getElementsByClassName("accordion");
 
+let panels = document.querySelectorAll("panel");
+
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function () {
-    this.classList.toggle("active");
-    let panel = this.nextElementSibling;
-    let nextPanel = panel.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-      nextPanel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
+    //this.classList.toggle("active");
+    // let panel = this.nextElementSibling;
+    // let nextPanel = panel.nextElementSibling;
+    // if (panel.style.display === "block") {
+    //   panel.style.display = "none";
+    //   nextPanel.style.display = "none";
+    // } else {
+    //   panel.style.display = "block";
+    // }
+    this.nextElementSibling.classList.toggle("active");
   });
 }
 
