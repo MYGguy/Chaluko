@@ -10,8 +10,19 @@
   <body>
     <!--BUG closing top accodian doesn't close bottom ones-->
 
-    <ol>
+    <ol id="mainAcc">
       <li class="book accordion" id="likuteiSichos"><button>Likutei Sichos</button>
+        <li class="chelek accordion panel hidden" id="chelek1"><button>Chelek Alef</button>
+          <li class="chelek accordion panel hidden" id="chelek2"><button>Chelek Beis</button>
+            <li class="parsha accordion panel hidden" id="beraishis"><input type="checkbox">Beraishis</input>
+              </li>
+            </li>
+        </li>
+      </li>
+    </ol>
+
+    <ol id="second">
+      <li class="book accordion" id="likuteiSichos"><button>Maamarim</button>
         <li class="chelek accordion panel hidden" id="chelek1"><button>Chelek Alef</button>
           <li class="chelek accordion panel hidden" id="chelek2"><button>Chelek Beis</button>
             <li class="parsha accordion panel hidden" id="beraishis"><input type="checkbox">Beraishis</input>
